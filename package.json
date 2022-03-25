@@ -1,0 +1,19 @@
+{
+  "name": "web3-react-basic-integration",
+  "version": "0.1.0",
+  "description": "A bare-minimal web3-react integration example for React",
+  "license": "MIT",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
