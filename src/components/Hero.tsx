@@ -1,6 +1,4 @@
-import { useWeb3React } from "@web3-react/core";
-import { useMemo } from "react";
-import { connectorsByName } from "../utils/connectors";
+import { useWeb3Manager } from "../context/Web3Manager";
 
 interface HeroProps {
   isOpen: boolean;
@@ -8,7 +6,7 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ setIsOpen }) => {
-  const { active } = useWeb3React();
+  const { active } = useWeb3Manager();
 
   return (
     <div className="hero grow bg-base-200">
