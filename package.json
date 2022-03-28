@@ -18,6 +18,7 @@
     "tailwindcss": "^3.0.23"
   },
   "dependencies": {
+    "classnames": "^2.3.1",
     "daisyui": "^2.13.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
