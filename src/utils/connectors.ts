@@ -15,11 +15,7 @@ export const RPC_URLS = {
   [Networks.Mainnet]: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`,
 };
 
-console.log({ RPC_URLS });
-
-export const injected = new InjectedConnector({
-  supportedChainIds: [Networks.Mainnet],
-});
+export const injected = new InjectedConnector({});
 
 export const walletconnect = new WalletConnectConnector({
   rpc: RPC_URLS,
